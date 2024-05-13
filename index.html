@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Permutasi dan Kombinasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulator Permutasi dan Kombinasi</h1>
+
+    <div class="container">
+        <div class="input-group">
+            <label for="n">Nilai n:</label>
+            <input type="number" id="n" min="1" value="10">
+        </div>
+        <div class="input-group">
+            <label for="r">Nilai r:</label>
+            <input type="number" id="r" min="1" value="5">
+        </div>
+
+        <button onclick="hitungPermutasi()">Hitung Permutasi</button>
+        <button onclick="hitungKombinasi()">Hitung Kombinasi</button>
+
+        <div id="hasil">
+            <h2>Hasil Perhitungan</h2>
+            <p id="permutasi">Permutasi: 0</p>
+            <p id="kombinasi">Kombinasi: 0</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    </head>
+<body>
+
+    <div class="container">
+        <div id="info">
+            <h2>Penjelasan</h2>
+            <p id="permutasi-definisi">Permutasi adalah pengaturan sebagian atau seluruh himpunan dalam urutan tertentu (urutan elemen diperhatikan). Contohnya, urutan huruf pada kata "MATA" berbeda dengan "ATAM".</p>
+            <p id="kombinasi-definisi">Kombinasi adalah proses pemilihan elemen dari himpunan, dimana urutan pemilihan elemen tidak diperhatikan. Contohnya, memilih 2 buah bola dari 5 bola yang berbeda, urutan pengambilan tidak berpengaruh.</p>
+        </div>
+
+        </div>
+
+    </body>
+</html>
