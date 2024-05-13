@@ -1,3 +1,6 @@
+// script.js
+
+// Function to calculate permutation
 function hitungPermutasi() {
     const n = parseInt(document.getElementById('n').value);
     const r = parseInt(document.getElementById('r').value);
@@ -15,6 +18,7 @@ function hitungPermutasi() {
     document.getElementById('permutasi').textContent = `Permutasi: ${permutasi}`;
 }
 
+// Function to calculate combination
 function hitungKombinasi() {
     const n = parseInt(document.getElementById('n').value);
     const r = parseInt(document.getElementById('r').value);
