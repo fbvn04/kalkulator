@@ -2,19 +2,25 @@
 
 /* Global styles */
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #FF0000;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
 }
 
 .container {
-    width: 400px;
+    max-width: 500px;
     margin: 20px auto;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .input-group {
@@ -30,13 +36,15 @@ body {
 }
 
 .input-group input {
-    width: 100%;
+    width: calc(100% - 120px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
 }
 
 button {
+    width: calc(50% - 10px);
+    margin: 10px 5px;
     padding: 12px 20px;
     background-color: #007bff;
     color: white;
@@ -47,11 +55,12 @@ button {
 }
 
 button:hover {
-    background-color: #0067cc;
+    background-color: #0056b3;
 }
 
 #hasil {
     margin-top: 20px;
+    text-align: center;
 }
 
 #permutasi, #kombinasi {
@@ -59,14 +68,14 @@ button:hover {
     font-weight: bold;
 }
 
-/* Additional styles */
 #info {
     margin-top: 20px;
     padding: 20px;
-    border-radius: 5px;
-    background-color: #00008B;
+    border-radius: 10px;
+    background-color: #e0e0e0;
 }
 
 #permutasi-definisi, #kombinasi-definisi {
     margin-bottom: 15px;
+    text-align: justify;
 }
