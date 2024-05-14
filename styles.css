@@ -12,6 +12,7 @@ body {
 h1 {
     text-align: center;
     color: #007bff;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -42,9 +43,14 @@ h1 {
     border-radius: 3px;
 }
 
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
 button {
-    width: calc(50% - 10px);
-    margin: 10px 5px;
+    flex: 1;
     padding: 12px 20px;
     background-color: #007bff;
     color: white;
