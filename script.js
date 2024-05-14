@@ -35,3 +35,11 @@ function hitungKombinasi() {
 
     document.getElementById('kombinasi').textContent = `Kombinasi: ${kombinasi}`;
 }
+
+// Function to clear input fields and results
+function clearFields() {
+    document.getElementById('n').value = '';
+    document.getElementById('r').value = '';
+    document.getElementById('permutasi').textContent = 'Permutasi: 0';
+    document.getElementById('kombinasi').textContent = 'Kombinasi: 0';
+}
